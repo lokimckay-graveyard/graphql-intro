@@ -1,0 +1,29 @@
+{
+  "name": "graphql-example",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sneyed/graphql-example.git"
+  },
+  "author": "Lachlan McKay",
+  "homepage": "https://github.com/sneyed/graphql-example",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.3",
+    "express-graphql": "^0.6.12",
+    "graphql": "^14.0.2",
+    "graphql-tools": "^3.1.1",
+    "tunnel": "^0.0.6"
+  },
+  "devDependencies": {
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "chalk": "^2.4.1"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  houses {
+    name
+    region
+  }
+}
